@@ -4,7 +4,7 @@ answer=$@
 #Ask for instructor unless specified
 if [ -z "$1" ];
   then
-  printf "Instructor name? "
+  printf "What is the instructor name? "
   read answer
 fi
 
